@@ -63,6 +63,9 @@ public class Neuron {
         this.cache_listweights = cache_listweights;
     }
 
+    public void setCache_listweights_element(float element, int index) {
+        this.cache_listweights[index] = element;
+    }
     public float getGradient() {
         return gradient;
     }
